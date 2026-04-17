@@ -9,6 +9,16 @@ Pre-1.0 is iteration territory: breaking changes may land in minor versions.
 
 ## [Unreleased]
 
+### Added
+- Primary logo mark (serif "jw" + sakura petals) in five color variants: `jw-primary`, `jw-primary-dark`, `jw-mono`, `jw-mono-light`, `jw-mono-wine`
+- Filled circle badge variant: `jw-circle.svg` / `jw-circle.png`
+- Standalone petal mark in sakura-400, petal-cream, and sakura-900 (`petal.svg`, `petal-light.svg`, `petal-wine.svg`), plus raster exports
+- Favicon set: `favicon.svg`, `favicon.ico`, `favicon-96x96.png`, `apple-touch-icon.png`, PWA icons (192/512), and `site.webmanifest` starter
+- `jw-current.svg`: `currentColor`-driven monogram for CSS-colorable inline use
+
+### Changed
+- Replaced placeholder `petal.svg` (geometric ellipse construction) with the finalized brand petal artwork
+
 ## [0.1.0] - 2026-04-17
 
 ### Added
