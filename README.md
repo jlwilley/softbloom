@@ -1,6 +1,6 @@
 # Softbloom
 
-A personal design system by Jared Wilson. Sakura-inspired, editorial, quiet but confident.
+A personal design system by jlwilley. Sakura-inspired, editorial, quiet but confident.
 
 The system is built around a single idea: **softness held by structure**. Every choice, from the color ramps to the corner radii to the motion curves, balances a soft surface against a confident skeleton.
 

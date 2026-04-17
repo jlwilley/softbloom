@@ -1,5 +1,5 @@
 {
-  "name": "@jaredw/softbloom",
+  "name": "@jlwilley/softbloom",
   "version": "0.1.0",
   "description": "Softbloom: a sakura-inspired design system with light and dark modes",
   "type": "module",
@@ -30,7 +30,7 @@
     "sakura",
     "css-variables"
   ],
-  "author": "Jared Wilson",
+  "author": "jlwilley",
   "license": "MIT",
   "repository": {
     "type": "git",
