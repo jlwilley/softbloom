@@ -10,6 +10,8 @@ Pre-1.0 is iteration territory: breaking changes may land in minor versions.
 ## [Unreleased]
 
 ### Added
+- README rebuilt as a live design showcase: hero, palette, typography, shape and motion, components, and logo lockups, each with Softbloom/Nightbloom variants via `<picture>` dark-mode swaps
+- `docs/readme/` — generated showcase assets (ten SVGs plus two 2x type specimen PNGs) rendered by a single `build.py` script so they stay in sync with the token values
 - Primary logo mark (serif "jw" + sakura petals) in five color variants: `jw-primary`, `jw-primary-dark`, `jw-mono`, `jw-mono-light`, `jw-mono-wine`
 - Filled circle badge variant: `jw-circle.svg` / `jw-circle.png`
 - Standalone petal mark in sakura-400, petal-cream, and sakura-900 (`petal.svg`, `petal-light.svg`, `petal-wine.svg`), plus raster exports

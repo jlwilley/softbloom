@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 846" width="1200" height="846" role="img" aria-label="Nightbloom · dark mode palette">
+      <style>
+  .bg { fill: #1A0F12; }
+  .surface { fill: #261619; }
+  .muted-surface { fill: #3D2530; }
+  .display { font-family: 'Fraunces', 'GT Super', Georgia, 'Times New Roman', serif; font-weight: 400; fill: #FFE8F0; }
+  .display-italic { font-family: 'Fraunces', 'GT Super', Georgia, 'Times New Roman', serif; font-weight: 400; font-style: italic; fill: #FFE8F0; }
+  .sans { font-family: 'Inter', 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; fill: #FFE8F0; }
+  .sans-medium { font-family: 'Inter', 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 500; fill: #FFE8F0; }
+  .mono { font-family: 'JetBrains Mono', 'IBM Plex Mono', 'Cascadia Code', ui-monospace, monospace; font-weight: 400; fill: #8A6578; }
+  .mono-ink { font-family: 'JetBrains Mono', 'IBM Plex Mono', 'Cascadia Code', ui-monospace, monospace; font-weight: 400; fill: #FFE8F0; }
+  .label { font-family: 'Inter', 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 500; fill: #FFE8F0; }
+  .secondary { font-family: 'Inter', 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; fill: #8A6578; }
+  .tertiary { font-family: 'Inter', 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; fill: #6E5260; }
+  .eyebrow { font-family: 'Inter', 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 500; fill: #8A6578; letter-spacing: 0.08em; text-transform: uppercase; }
+  .swatch { stroke: #3D2530; stroke-width: 0.5; }
+</style>
+      <rect class="bg" width="1200" height="846"/>
+      <text x="40" y="68" class="display" font-size="40" letter-spacing="-0.02em">Palette</text>
+      <text x="40" y="96" class="secondary" font-size="14">Nightbloom · dark mode</text>
+      <text x="40" y="130" class="eyebrow" font-size="11">Glow pinks · the hero</text>
+<rect x="40" y="158" width="176" height="120" rx="4" fill="#FFE8F0" class="swatch"/>
+<text x="40" y="300" class="mono-ink" font-size="12">--petal</text>
+<text x="40" y="318" class="mono" font-size="11">#FFE8F0</text>
+<text x="40" y="336" class="tertiary" font-size="11">Body text</text>
+<rect x="228" y="158" width="176" height="120" rx="4" fill="#F8B8CE" class="swatch"/>
+<text x="228" y="300" class="mono-ink" font-size="12">--bloom</text>
+<text x="228" y="318" class="mono" font-size="11">#F8B8CE</text>
+<text x="228" y="336" class="tertiary" font-size="11">Soft accent</text>
+<rect x="416" y="158" width="176" height="120" rx="4" fill="#F289AD" class="swatch"/>
+<text x="416" y="300" class="mono-ink" font-size="12">--rose</text>
+<text x="416" y="318" class="mono" font-size="11">#F289AD</text>
+<text x="416" y="336" class="tertiary" font-size="11">Mid accent</text>
+<rect x="604" y="158" width="176" height="120" rx="4" fill="#D4577A" class="swatch"/>
+<text x="604" y="300" class="mono-ink" font-size="12">--carmine</text>
+<text x="604" y="318" class="mono" font-size="11">#D4577A</text>
+<text x="604" y="336" class="tertiary" font-size="11">Primary brand</text>
+<rect x="792" y="158" width="176" height="120" rx="4" fill="#9F3754" class="swatch"/>
+<text x="792" y="300" class="mono-ink" font-size="12">--cherry</text>
+<text x="792" y="318" class="mono" font-size="11">#9F3754</text>
+<text x="792" y="336" class="tertiary" font-size="11">Depth, focus</text>
+<rect x="980" y="158" width="176" height="120" rx="4" fill="#4A1A2A" class="swatch"/>
+<text x="980" y="300" class="mono-ink" font-size="12">--ember</text>
+<text x="980" y="318" class="mono" font-size="11">#4A1A2A</text>
+<text x="980" y="336" class="tertiary" font-size="11">Brand wash, danger</text>
+<text x="40" y="362" class="eyebrow" font-size="11">Night foundation · the workhorse</text>
+<rect x="40" y="390" width="176" height="120" rx="4" fill="#0F0709" class="swatch"/>
+<text x="40" y="532" class="mono-ink" font-size="12">--obsidian</text>
+<text x="40" y="550" class="mono" font-size="11">#0F0709</text>
+<text x="40" y="568" class="tertiary" font-size="11">Deepest ground</text>
+<rect x="228" y="390" width="176" height="120" rx="4" fill="#1A0F12" class="swatch"/>
+<text x="228" y="532" class="mono-ink" font-size="12">--midnight</text>
+<text x="228" y="550" class="mono" font-size="11">#1A0F12</text>
+<text x="228" y="568" class="tertiary" font-size="11">App background</text>
+<rect x="416" y="390" width="176" height="120" rx="4" fill="#261619" class="swatch"/>
+<text x="416" y="532" class="mono-ink" font-size="12">--plum</text>
+<text x="416" y="550" class="mono" font-size="11">#261619</text>
+<text x="416" y="568" class="tertiary" font-size="11">Card surface</text>
+<rect x="604" y="390" width="176" height="120" rx="4" fill="#3D2530" class="swatch"/>
+<text x="604" y="532" class="mono-ink" font-size="12">--mulberry</text>
+<text x="604" y="550" class="mono" font-size="11">#3D2530</text>
+<text x="604" y="568" class="tertiary" font-size="11">Default border</text>
+<rect x="792" y="390" width="176" height="120" rx="4" fill="#8A6578" class="swatch"/>
+<text x="792" y="532" class="mono-ink" font-size="12">--dusk</text>
+<text x="792" y="550" class="mono" font-size="11">#8A6578</text>
+<text x="792" y="568" class="tertiary" font-size="11">Secondary text</text>
+<rect x="980" y="390" width="176" height="120" rx="4" fill="#FFE8F0" class="swatch"/>
+<text x="980" y="532" class="mono-ink" font-size="12">--petal</text>
+<text x="980" y="550" class="mono" font-size="11">#FFE8F0</text>
+<text x="980" y="568" class="tertiary" font-size="11">Primary text</text>
+<text x="40" y="594" class="eyebrow" font-size="11">Supporting accents · used sparingly</text>
+<rect x="40" y="622" width="176" height="120" rx="4" fill="#3A2F42" class="swatch"/>
+<text x="40" y="764" class="mono-ink" font-size="12">--night-lilac</text>
+<text x="40" y="782" class="mono" font-size="11">#3A2F42</text>
+<text x="40" y="800" class="tertiary" font-size="11">Secondary states</text>
+<rect x="228" y="622" width="176" height="120" rx="4" fill="#2D3A2F" class="swatch"/>
+<text x="228" y="764" class="mono-ink" font-size="12">--moss</text>
+<text x="228" y="782" class="mono" font-size="11">#2D3A2F</text>
+<text x="228" y="800" class="tertiary" font-size="11">Success</text>
+<rect x="416" y="622" width="176" height="120" rx="4" fill="#4A3820" class="swatch"/>
+<text x="416" y="764" class="mono-ink" font-size="12">--amber</text>
+<text x="416" y="782" class="mono" font-size="11">#4A3820</text>
+<text x="416" y="800" class="tertiary" font-size="11">Warmth, warnings</text>
+<rect x="604" y="622" width="176" height="120" rx="4" fill="#5C3848" class="swatch"/>
+<text x="604" y="764" class="mono-ink" font-size="12">--wine</text>
+<text x="604" y="782" class="mono" font-size="11">#5C3848</text>
+<text x="604" y="800" class="tertiary" font-size="11">Depth</text>
+
+    </svg>

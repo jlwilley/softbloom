@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 560" width="1280" height="560" role="img" aria-label="Softbloom — softness held by structure">
+      <style>
+  .bg { fill: #FAF6F2; }
+  .surface { fill: #FFFFFF; }
+  .muted-surface { fill: #F2EBE4; }
+  .display { font-family: 'Fraunces', 'GT Super', Georgia, 'Times New Roman', serif; font-weight: 400; fill: #2B1F1C; }
+  .display-italic { font-family: 'Fraunces', 'GT Super', Georgia, 'Times New Roman', serif; font-weight: 400; font-style: italic; fill: #2B1F1C; }
+  .sans { font-family: 'Inter', 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; fill: #2B1F1C; }
+  .sans-medium { font-family: 'Inter', 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 500; fill: #2B1F1C; }
+  .mono { font-family: 'JetBrains Mono', 'IBM Plex Mono', 'Cascadia Code', ui-monospace, monospace; font-weight: 400; fill: #6B5A52; }
+  .mono-ink { font-family: 'JetBrains Mono', 'IBM Plex Mono', 'Cascadia Code', ui-monospace, monospace; font-weight: 400; fill: #2B1F1C; }
+  .label { font-family: 'Inter', 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 500; fill: #2B1F1C; }
+  .secondary { font-family: 'Inter', 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; fill: #6B5A52; }
+  .tertiary { font-family: 'Inter', 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; fill: #A89589; }
+  .eyebrow { font-family: 'Inter', 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 500; fill: #6B5A52; letter-spacing: 0.08em; text-transform: uppercase; }
+  .swatch { stroke: #E0D5CA; stroke-width: 0.5; }
+</style>
+      <rect class="bg" width="1280" height="560"/>
+      <g transform="rotate(-8 174.0 270.0) translate(64 160) scale(1.375) translate(-5 -5)" fill="#E87FA0"><path d="M65.722,56.344C64.034,53.66 52.775,35.753 65.819,16.711C72.968,6.273 74.472,16.509 78.588,18.268C80.151,18.936 80.012,17.98 85.663,12.684C91.068,7.618 113.164,43.17 82.271,66.183C77.884,69.451 73.233,65.664 65.722,56.344Z"/>
+<path d="M93.876,68.643C95.393,65.406 106.526,41.657 133.424,47.851C140.41,49.46 143.122,50.282 139.871,56.712C135.707,64.948 143.123,62.436 146.489,66.509C149.757,70.463 126.314,100.706 95.835,81.017C89.739,77.08 91.589,75.53 93.876,68.643Z"/>
+<path d="M46.467,87.257C43.355,87.49 21.845,89.099 11.812,69.35C9.441,64.682 20.955,63.512 19.808,60.427C17.4,53.955 13.02,51.79 19.429,49.337C51.567,37.033 70.842,73.774 65.523,78.523C58.09,85.158 48.117,86.959 46.467,87.257Z"/>
+<path d="M114.031,138.394C113.347,140.452 113.38,143.899 103.678,140.081C76.435,129.36 81.876,91.728 88.475,91.27C125.959,88.669 132.62,132.425 124.503,132.421C123.858,132.421 124.023,131.855 116.495,131.453C115.148,131.381 115.604,132.144 114.031,138.394Z"/>
+<path d="M43.88,138.418C42.871,132.813 42.91,132.842 42.79,132.365C42.133,129.746 32.68,134.228 31.505,131.498C26.176,119.119 40.651,88.637 69.532,91.233C74.89,91.714 83.776,126.799 54.607,139.757C43.078,144.878 43.896,138.463 43.88,138.418Z"/>
+<path d="M71.923,80.511C73.94,70.363 82.29,74.466 83.51,75.488C93.2,83.618 73.69,96.632 71.923,80.511Z"/></g>
+      <g>
+        <text x="360" y="220" class="eyebrow" font-size="14">A personal design system · by jlwilley</text>
+        <text x="360" y="308" class="display" font-size="88" letter-spacing="-0.02em">Softbloom.</text>
+        <text x="360" y="360" class="display-italic" font-size="32" fill="#B84668">softness held by structure.</text>
+        <text x="360" y="404" class="secondary" font-size="16">Sakura-inspired colorways. Editorial type. 0.5px borders. Two modes: Softbloom &amp; Nightbloom.</text>
+      </g>
+      <rect x="360" y="420" width="56" height="56" rx="4" fill="#FFF7F9" class="swatch"/><rect x="424" y="420" width="56" height="56" rx="4" fill="#FBE4EC" class="swatch"/><rect x="488" y="420" width="56" height="56" rx="4" fill="#F5B8CD" class="swatch"/><rect x="552" y="420" width="56" height="56" rx="4" fill="#E87FA0" class="swatch"/><rect x="616" y="420" width="56" height="56" rx="4" fill="#B84668" class="swatch"/><rect x="680" y="420" width="56" height="56" rx="4" fill="#5C1A2E" class="swatch"/><rect x="768" y="420" width="56" height="56" rx="4" fill="#FAF6F2" class="swatch"/><rect x="832" y="420" width="56" height="56" rx="4" fill="#F2EBE4" class="swatch"/><rect x="896" y="420" width="56" height="56" rx="4" fill="#E0D5CA" class="swatch"/><rect x="960" y="420" width="56" height="56" rx="4" fill="#6B5A52" class="swatch"/><rect x="1024" y="420" width="56" height="56" rx="4" fill="#2B1F1C" class="swatch"/>
+      <text x="360" y="508" class="mono" font-size="11">SAKURA 50 → 900</text>
+      <text x="768" y="508" class="mono" font-size="11">PAPER → INK</text>
+    </svg>

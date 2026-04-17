@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 846" width="1200" height="846" role="img" aria-label="Softbloom · light mode palette">
+      <style>
+  .bg { fill: #FAF6F2; }
+  .surface { fill: #FFFFFF; }
+  .muted-surface { fill: #F2EBE4; }
+  .display { font-family: 'Fraunces', 'GT Super', Georgia, 'Times New Roman', serif; font-weight: 400; fill: #2B1F1C; }
+  .display-italic { font-family: 'Fraunces', 'GT Super', Georgia, 'Times New Roman', serif; font-weight: 400; font-style: italic; fill: #2B1F1C; }
+  .sans { font-family: 'Inter', 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; fill: #2B1F1C; }
+  .sans-medium { font-family: 'Inter', 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 500; fill: #2B1F1C; }
+  .mono { font-family: 'JetBrains Mono', 'IBM Plex Mono', 'Cascadia Code', ui-monospace, monospace; font-weight: 400; fill: #6B5A52; }
+  .mono-ink { font-family: 'JetBrains Mono', 'IBM Plex Mono', 'Cascadia Code', ui-monospace, monospace; font-weight: 400; fill: #2B1F1C; }
+  .label { font-family: 'Inter', 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 500; fill: #2B1F1C; }
+  .secondary { font-family: 'Inter', 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; fill: #6B5A52; }
+  .tertiary { font-family: 'Inter', 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; fill: #A89589; }
+  .eyebrow { font-family: 'Inter', 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 500; fill: #6B5A52; letter-spacing: 0.08em; text-transform: uppercase; }
+  .swatch { stroke: #E0D5CA; stroke-width: 0.5; }
+</style>
+      <rect class="bg" width="1200" height="846"/>
+      <text x="40" y="68" class="display" font-size="40" letter-spacing="-0.02em">Palette</text>
+      <text x="40" y="96" class="secondary" font-size="14">Softbloom · light mode</text>
+      <text x="40" y="130" class="eyebrow" font-size="11">Sakura · the hero</text>
+<rect x="40" y="158" width="176" height="120" rx="4" fill="#FFF7F9" class="swatch"/>
+<text x="40" y="300" class="mono-ink" font-size="12">--sakura-50</text>
+<text x="40" y="318" class="mono" font-size="11">#FFF7F9</text>
+<text x="40" y="336" class="tertiary" font-size="11">Softest wash</text>
+<rect x="228" y="158" width="176" height="120" rx="4" fill="#FBE4EC" class="swatch"/>
+<text x="228" y="300" class="mono-ink" font-size="12">--sakura-100</text>
+<text x="228" y="318" class="mono" font-size="11">#FBE4EC</text>
+<text x="228" y="336" class="tertiary" font-size="11">Tag backgrounds</text>
+<rect x="416" y="158" width="176" height="120" rx="4" fill="#F5B8CD" class="swatch"/>
+<text x="416" y="300" class="mono-ink" font-size="12">--sakura-200</text>
+<text x="416" y="318" class="mono" font-size="11">#F5B8CD</text>
+<text x="416" y="336" class="tertiary" font-size="11">Chart fills</text>
+<rect x="604" y="158" width="176" height="120" rx="4" fill="#E87FA0" class="swatch"/>
+<text x="604" y="300" class="mono-ink" font-size="12">--sakura-400</text>
+<text x="604" y="318" class="mono" font-size="11">#E87FA0</text>
+<text x="604" y="336" class="tertiary" font-size="11">Decorative mid</text>
+<rect x="792" y="158" width="176" height="120" rx="4" fill="#B84668" class="swatch"/>
+<text x="792" y="300" class="mono-ink" font-size="12">--sakura-600</text>
+<text x="792" y="318" class="mono" font-size="11">#B84668</text>
+<text x="792" y="336" class="tertiary" font-size="11">Primary brand</text>
+<rect x="980" y="158" width="176" height="120" rx="4" fill="#5C1A2E" class="swatch"/>
+<text x="980" y="300" class="mono-ink" font-size="12">--sakura-900</text>
+<text x="980" y="318" class="mono" font-size="11">#5C1A2E</text>
+<text x="980" y="336" class="tertiary" font-size="11">Dark text on pink</text>
+<text x="40" y="362" class="eyebrow" font-size="11">Warm neutrals · the workhorse</text>
+<rect x="40" y="390" width="176" height="120" rx="4" fill="#FAF6F2" class="swatch"/>
+<text x="40" y="532" class="mono-ink" font-size="12">--paper</text>
+<text x="40" y="550" class="mono" font-size="11">#FAF6F2</text>
+<text x="40" y="568" class="tertiary" font-size="11">App background</text>
+<rect x="228" y="390" width="176" height="120" rx="4" fill="#F2EBE4" class="swatch"/>
+<text x="228" y="532" class="mono-ink" font-size="12">--linen</text>
+<text x="228" y="550" class="mono" font-size="11">#F2EBE4</text>
+<text x="228" y="568" class="tertiary" font-size="11">Secondary surface</text>
+<rect x="416" y="390" width="176" height="120" rx="4" fill="#E0D5CA" class="swatch"/>
+<text x="416" y="532" class="mono-ink" font-size="12">--stone</text>
+<text x="416" y="550" class="mono" font-size="11">#E0D5CA</text>
+<text x="416" y="568" class="tertiary" font-size="11">Default border</text>
+<rect x="604" y="390" width="176" height="120" rx="4" fill="#A89589" class="swatch"/>
+<text x="604" y="532" class="mono-ink" font-size="12">--taupe</text>
+<text x="604" y="550" class="mono" font-size="11">#A89589</text>
+<text x="604" y="568" class="tertiary" font-size="11">Tertiary text</text>
+<rect x="792" y="390" width="176" height="120" rx="4" fill="#6B5A52" class="swatch"/>
+<text x="792" y="532" class="mono-ink" font-size="12">--bark</text>
+<text x="792" y="550" class="mono" font-size="11">#6B5A52</text>
+<text x="792" y="568" class="tertiary" font-size="11">Secondary text</text>
+<rect x="980" y="390" width="176" height="120" rx="4" fill="#2B1F1C" class="swatch"/>
+<text x="980" y="532" class="mono-ink" font-size="12">--ink</text>
+<text x="980" y="550" class="mono" font-size="11">#2B1F1C</text>
+<text x="980" y="568" class="tertiary" font-size="11">Primary text</text>
+<text x="40" y="594" class="eyebrow" font-size="11">Supporting accents · used sparingly</text>
+<rect x="40" y="622" width="176" height="120" rx="4" fill="#EFE4F0" class="swatch"/>
+<text x="40" y="764" class="mono-ink" font-size="12">--lilac</text>
+<text x="40" y="782" class="mono" font-size="11">#EFE4F0</text>
+<text x="40" y="800" class="tertiary" font-size="11">Secondary states</text>
+<rect x="228" y="622" width="176" height="120" rx="4" fill="#DDE8DC" class="swatch"/>
+<text x="228" y="764" class="mono-ink" font-size="12">--sage</text>
+<text x="228" y="782" class="mono" font-size="11">#DDE8DC</text>
+<text x="228" y="800" class="tertiary" font-size="11">Success, grounding</text>
+<rect x="416" y="622" width="176" height="120" rx="4" fill="#F7E6D2" class="swatch"/>
+<text x="416" y="764" class="mono-ink" font-size="12">--honey</text>
+<text x="416" y="782" class="mono" font-size="11">#F7E6D2</text>
+<text x="416" y="800" class="tertiary" font-size="11">Warmth, warnings</text>
+<rect x="604" y="622" width="176" height="120" rx="4" fill="#7A2640" class="swatch"/>
+<text x="604" y="764" class="mono-ink" font-size="12">--wine</text>
+<text x="604" y="782" class="mono" font-size="11">#7A2640</text>
+<text x="604" y="800" class="tertiary" font-size="11">Depth, focus</text>
+
+    </svg>

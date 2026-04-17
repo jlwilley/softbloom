@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 870" width="1200" height="870" role="img" aria-label="Component showcase · Nightbloom · dark mode">
+      <style>
+  .bg { fill: #1A0F12; }
+  .surface { fill: #261619; }
+  .muted-surface { fill: #3D2530; }
+  .display { font-family: 'Fraunces', 'GT Super', Georgia, 'Times New Roman', serif; font-weight: 400; fill: #FFE8F0; }
+  .display-italic { font-family: 'Fraunces', 'GT Super', Georgia, 'Times New Roman', serif; font-weight: 400; font-style: italic; fill: #FFE8F0; }
+  .sans { font-family: 'Inter', 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; fill: #FFE8F0; }
+  .sans-medium { font-family: 'Inter', 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 500; fill: #FFE8F0; }
+  .mono { font-family: 'JetBrains Mono', 'IBM Plex Mono', 'Cascadia Code', ui-monospace, monospace; font-weight: 400; fill: #8A6578; }
+  .mono-ink { font-family: 'JetBrains Mono', 'IBM Plex Mono', 'Cascadia Code', ui-monospace, monospace; font-weight: 400; fill: #FFE8F0; }
+  .label { font-family: 'Inter', 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 500; fill: #FFE8F0; }
+  .secondary { font-family: 'Inter', 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; fill: #8A6578; }
+  .tertiary { font-family: 'Inter', 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 400; fill: #6E5260; }
+  .eyebrow { font-family: 'Inter', 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 500; fill: #8A6578; letter-spacing: 0.08em; text-transform: uppercase; }
+  .swatch { stroke: #3D2530; stroke-width: 0.5; }
+</style>
+      <rect class="bg" width="1200" height="870"/>
+      <text x="40" y="68" class="display" font-size="40" letter-spacing="-0.02em">Components</text>
+      <text x="40" y="96" class="secondary" font-size="14">Button · Card · Input · Tag · Nightbloom · dark mode</text>
+      <g transform="translate(40 140)">
+  <text class="eyebrow" font-size="11" y="0">Button</text>
+  <text class="secondary" font-size="13" y="24">Primary, secondary, and ghost. 36px default, 0.5px hairline, 10px radius.</text>
+  <g transform="translate(0 54)">
+    <rect x="0" y="0" width="135.60000000000002" height="36" rx="10" fill="#D4577A"/><text x="67.80000000000001" y="23" class="sans-medium" fill="#FFE8F0" font-size="13" text-anchor="middle">Primary action</text>
+    <rect x="170" y="0" width="98.60000000000001" height="36" rx="10" fill="transparent" stroke="#D4577A" stroke-width="0.5"/><text x="219.3" y="23" class="sans-medium" fill="#9F3754" font-size="13" text-anchor="middle">Secondary</text>
+    <text x="344.5" y="23" class="sans-medium" fill="#8A6578" font-size="13" text-anchor="middle">Ghost</text>
+  </g>
+  <g transform="translate(0 110)">
+    <text class="mono" font-size="11" x="0" y="0">filled, high emphasis</text>
+    <text class="mono" font-size="11" x="170" y="0">outlined, medium</text>
+    <text class="mono" font-size="11" x="310" y="0">text-only, low</text>
+  </g>
+</g>
+      <g transform="translate(40 340)">
+  <text class="eyebrow" font-size="11" y="0">Card</text>
+  <text class="secondary" font-size="13" y="24">Bounded container. 16px radius, 0.5px border, 20px padding.</text>
+  <g transform="translate(0 50)">
+    <rect width="360" height="180" rx="16" fill="#261619" stroke="#3D2530" stroke-width="0.5"/>
+    <text class="eyebrow" font-size="10" x="24" y="36">This week</text>
+    <text class="display" font-size="22" x="24" y="72" letter-spacing="-0.01em">Active sessions</text>
+    <line x1="24" y1="94" x2="336" y2="94" stroke="#3D2530" stroke-width="0.5"/>
+    <text class="sans-medium" font-size="32" x="24" y="138" letter-spacing="-0.02em">12,418</text>
+    <text class="secondary" font-size="13" x="24" y="160">+4.2% vs last week</text>
+    <circle cx="316" cy="132" r="6" fill="#D4577A"/>
+  </g>
+  <!-- Featured variant -->
+  <g transform="translate(400 50)">
+    <rect width="360" height="180" rx="16" fill="#261619" stroke="#D4577A" stroke-width="2"/>
+    <text class="eyebrow" font-size="10" x="24" y="36" fill="#D4577A">Featured</text>
+    <text class="display" font-size="22" x="24" y="72" letter-spacing="-0.01em">Recommended plan</text>
+    <line x1="24" y1="94" x2="336" y2="94" stroke="#3D2530" stroke-width="0.5"/>
+    <text class="sans" font-size="13" x="24" y="120">Use the 2px feature border only for</text>
+    <text class="sans" font-size="13" x="24" y="138">intentional emphasis. Never as default.</text>
+  </g>
+  <!-- Muted variant -->
+  <g transform="translate(800 50)">
+    <rect width="360" height="180" rx="16" fill="#3D2530" stroke="#3D2530" stroke-width="0.5"/>
+    <text class="eyebrow" font-size="10" x="24" y="36">Muted</text>
+    <text class="display" font-size="22" x="24" y="72" letter-spacing="-0.01em">Section within section</text>
+    <line x1="24" y1="94" x2="336" y2="94" stroke="#3D2530" stroke-width="0.5"/>
+    <text class="sans" font-size="13" x="24" y="120">Elevation via background shift, not</text>
+    <text class="sans" font-size="13" x="24" y="138">shadow. A quiet recess, not a rise.</text>
+  </g>
+</g>
+      <g transform="translate(40 610)">
+  <text class="eyebrow" font-size="11" y="0">Input</text>
+  <text class="secondary" font-size="13" y="24">36px height, focus ring via 3px brand-wash glow.</text>
+  <g transform="translate(0 50)">
+    <!-- default -->
+    <rect width="240" height="36" rx="10" fill="#261619" stroke="#3D2530" stroke-width="0.5"/>
+    <text class="tertiary" font-size="14" x="12" y="23">your@email.com</text>
+    <text class="mono" font-size="11" x="0" y="60">default</text>
+
+    <!-- focus -->
+    <g transform="translate(280 0)">
+      <rect x="-3" y="-3" width="246" height="42" rx="13" fill="#4A1A2A"/>
+      <rect width="240" height="36" rx="10" fill="#261619" stroke="#D4577A" stroke-width="0.5"/>
+      <text class="sans" font-size="14" x="12" y="23" fill="#FFE8F0">jlwilley</text>
+      <line x1="72" y1="11" x2="72" y2="25" stroke="#D4577A" stroke-width="1"/>
+      <text class="mono" font-size="11" x="0" y="60">focus · 3px brand-wash ring</text>
+    </g>
+
+    <!-- filled -->
+    <g transform="translate(560 0)">
+      <rect width="240" height="36" rx="10" fill="#261619" stroke="#3D2530" stroke-width="0.5"/>
+      <text class="sans" font-size="14" x="12" y="23" fill="#FFE8F0">softness held by structure</text>
+      <text class="mono" font-size="11" x="0" y="60">filled</text>
+    </g>
+  </g>
+</g>
+      <g transform="translate(40 770)">
+  <text class="eyebrow" font-size="11" y="0">Tag</text>
+  <text class="secondary" font-size="13" y="24">Pill-shaped. 100 fill + 900 text from the same ramp. Never black on color.</text>
+  <g transform="translate(0 54)">
+    <rect x="0" y="0" width="65.0" height="22" rx="999" fill="#4A1A2A"/><text x="32.5" y="15" class="sans" font-size="12" fill="#FFE8F0" text-anchor="middle">sakura</text>
+    <rect x="110" y="0" width="57.5" height="22" rx="999" fill="#3A2F42"/><text x="138.75" y="15" class="sans" font-size="12" fill="#D5C4DA" text-anchor="middle">lilac</text>
+    <rect x="190" y="0" width="50.0" height="22" rx="999" fill="#2D3A2F"/><text x="215.0" y="15" class="sans" font-size="12" fill="#B5D1B7" text-anchor="middle">sage</text>
+    <rect x="280" y="0" width="57.5" height="22" rx="999" fill="#4A3820"/><text x="308.75" y="15" class="sans" font-size="12" fill="#E8C998" text-anchor="middle">honey</text>
+  </g>
+  <text class="mono" font-size="11" x="0" y="92">bg #4A1A2A  text #FFE8F0</text>
+  <text class="mono" font-size="11" x="440" y="92">22px height · 10px horizontal padding · font-size 12</text>
+</g>
+    </svg>
