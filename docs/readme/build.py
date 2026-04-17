@@ -505,78 +505,86 @@ def shape_motion_svg(t: dict) -> str:
 # --- Logo lockups ----------------------------------------------------------
 
 
+import re as _re
+
+
+def _inline_logo_svg(filename: str) -> str:
+    """Return the inner content of a logo SVG file (everything inside
+    the root <svg> element) so it can be dropped into a nested <svg>.
+
+    Strips editor-specific namespaced attributes (serif:*, sodipodi:*,
+    inkscape:*) that would otherwise trigger namespace errors when the
+    inner content is reparented into a root that doesn't declare them.
+    """
+    raw = (LOGO / filename).read_text(encoding="utf-8")
+    raw = _re.sub(r"<\?xml[^?]*\?>", "", raw)
+    raw = _re.sub(r"<!DOCTYPE[^>]*>", "", raw)
+    m = _re.search(r"<svg\b[^>]*>(.*)</svg>\s*$", raw, flags=_re.DOTALL)
+    inner = m.group(1).strip() if m else raw.strip()
+    inner = _re.sub(r'\s+(?:serif|sodipodi|inkscape):[\w-]+="[^"]*"', "", inner)
+    return inner
+
+
 def logo_lockups_svg(t: dict, *, dark: bool) -> str:
     W = 1200
-    H = 460
+    H = 500
 
-    # Tiles: Primary mark, Monochrome, Circle, Petal
-    def tile(x, y, w, h, label, token, contents, bg=None):
+    # Tile container + embedded logo artwork at the file's native viewBox.
+    def tile(x, y, w, h, label, use_case, token, logo_inner, art_size=160, art_y=32, bg=None):
         bg = bg or t["bg_surface"]
+        art_x = (w - art_size) / 2
         return dedent(f"""
         <g transform="translate({x} {y})">
           <rect width="{w}" height="{h}" rx="16" fill="{bg}" stroke="{t['stone']}" stroke-width="0.5"/>
-          {contents}
-          <text class="label" font-size="14" x="24" y="{h - 36}">{label}</text>
-          <text class="mono" font-size="11" x="24" y="{h - 18}">{token}</text>
+          <svg x="{art_x}" y="{art_y}" width="{art_size}" height="{art_size}" viewBox="0 0 2000 2000" preserveAspectRatio="xMidYMid meet">
+            {logo_inner}
+          </svg>
+          <text class="label" font-size="14" x="24" y="{h - 56}">{label}</text>
+          <text class="secondary" font-size="12" x="24" y="{h - 36}">{use_case}</text>
+          <text class="mono" font-size="11" x="24" y="{h - 16}">{token}</text>
         </g>
         """).strip()
 
-    tile_h = 240
+    tile_h = 280
 
-    # Primary mark
-    primary_color = t["sakura_900"] if not dark else "#FFE8F0"
-    primary_petal = t["sakura_400"]
-    primary_contents = dedent(f"""
-      <g transform="translate(140 48) scale(0.3)">
-        <g transform="matrix(1.587553,-0.181492,0.170246,1.692416,100,120)" fill="{primary_petal}">{PETAL_PATHS}</g>
-        <text x="200" y="300" font-family="{FONT_STACK_DISPLAY}" font-weight="500" font-size="220" fill="{primary_color}" letter-spacing="-0.02em">jw</text>
-      </g>
-    """).strip()
+    # File selection per mode
+    primary_file = "jw-primary-dark.svg" if dark else "jw-primary.svg"
+    mono_file = "jw-mono-light.svg" if dark else "jw-mono.svg"
+    petal_file = "petal-light.svg" if dark else "petal.svg"
+    # jw-circle.svg has its own wine disc + cream mark, works on both bgs
 
-    # Mono
-    mono_color = t["ink"]
-    mono_contents = dedent(f"""
-      <g transform="translate(140 48) scale(0.3)">
-        <g transform="matrix(1.587553,-0.181492,0.170246,1.692416,100,120)" fill="{mono_color}">{PETAL_PATHS}</g>
-        <text x="200" y="300" font-family="{FONT_STACK_DISPLAY}" font-weight="500" font-size="220" fill="{mono_color}" letter-spacing="-0.02em">jw</text>
-      </g>
-    """).strip()
-
-    # Circle: wine disc with cream mark
-    circle_bg = t["wine"] if not dark else "#5C3848"
-    circle_fg = "#FFE8F0"
-    circle_contents = dedent(f"""
-      <g transform="translate(116 32)">
-        <circle cx="64" cy="64" r="64" fill="{circle_bg}"/>
-        <g transform="translate(8 12) scale(0.55)" fill="{circle_fg}">{PETAL_PATHS}</g>
-      </g>
-    """).strip()
-
-    # Petal-only
-    petal_color = t["sakura_400"] if not dark else "#F289AD"
-    petal_only_contents = dedent(f"""
-      <g transform="translate(106 40) scale(0.6)" fill="{petal_color}">{PETAL_PATHS}</g>
-    """).strip()
+    primary_inner = _inline_logo_svg(primary_file)
+    mono_inner = _inline_logo_svg(mono_file)
+    circle_inner = _inline_logo_svg("jw-circle.svg")
+    petal_inner = _inline_logo_svg(petal_file)
 
     x0 = 40
     tw = 272
     gap = 16
 
     tiles = "".join([
-        tile(x0 + 0 * (tw + gap), 140, tw, tile_h, "Primary mark", "jw-primary.svg", primary_contents),
-        tile(x0 + 1 * (tw + gap), 140, tw, tile_h, "Monochrome", "jw-mono.svg", mono_contents),
-        tile(x0 + 2 * (tw + gap), 140, tw, tile_h, "Circle", "jw-circle.svg", circle_contents, bg=t["bg_muted"]),
-        tile(x0 + 3 * (tw + gap), 140, tw, tile_h, "Petal mark", "petal.svg", petal_only_contents),
+        tile(x0 + 0 * (tw + gap), 140, tw, tile_h,
+             "Primary", "Hero contexts, splash, letterhead",
+             primary_file, primary_inner),
+        tile(x0 + 1 * (tw + gap), 140, tw, tile_h,
+             "Monochrome", "Where color would compete",
+             mono_file, mono_inner),
+        tile(x0 + 2 * (tw + gap), 140, tw, tile_h,
+             "Circle", "Avatars, app icons, favicon",
+             "jw-circle.svg", circle_inner, bg=t["bg_muted"]),
+        tile(x0 + 3 * (tw + gap), 140, tw, tile_h,
+             "Petal mark", "Small contexts, 16px minimum",
+             petal_file, petal_inner),
     ])
 
     mode = "Nightbloom" if dark else "Softbloom"
 
     return dedent(f"""
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="Logo lockups — {mode}">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="Logo lockups · {mode}">
       {style_block(t)}
       <rect class="bg" width="{W}" height="{H}"/>
       <text x="40" y="68" class="display" font-size="40" letter-spacing="-0.02em">Logo lockups</text>
-      <text x="40" y="96" class="secondary" font-size="14">Serif jw monogram with sakura petals. Clear space equals the height of the "w".</text>
+      <text x="40" y="96" class="secondary" font-size="14">Serif jw monogram with a five-petal sakura mark. Each lockup is tuned for a specific context.</text>
       {tiles}
     </svg>
     """).strip()
