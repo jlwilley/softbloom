@@ -1,0 +1,32 @@
+{
+  "motion": {
+    "duration": {
+      "instant": { "value": "0ms" },
+      "micro":   { "value": "200ms", "description": "Hover, focus, small state changes" },
+      "state":   { "value": "400ms", "description": "Open/close, toggle states" },
+      "page":    { "value": "600ms", "description": "Page transitions, large layout shifts" }
+    },
+    "easing": {
+      "softLanding": {
+        "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "description": "Ease-out-quint. Default for all motion. Slow finish."
+      },
+      "softStart": {
+        "value": "cubic-bezier(0.65, 0, 0.35, 1)",
+        "description": "Ease-in-out-quad. For continuous motion like loops."
+      },
+      "linear": {
+        "value": "linear",
+        "description": "Progress bars only"
+      }
+    },
+    "scale": {
+      "hoverLift": { "value": "1.01", "description": "Subtle hover feedback" },
+      "hoverPop":  { "value": "1.02", "description": "Emphasized hover, max allowed" },
+      "pressed":   { "value": "0.98", "description": "Active/pressed state" }
+    },
+    "stagger": {
+      "list": { "value": "40ms", "description": "Per-item delay in list entrance animations" }
+    }
+  }
+}

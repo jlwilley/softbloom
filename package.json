@@ -1,0 +1,39 @@
+{
+  "name": "@jaredw/softbloom",
+  "version": "0.1.0",
+  "description": "Softbloom: a sakura-inspired design system with light and dark modes",
+  "type": "module",
+  "main": "css/softbloom.css",
+  "files": [
+    "css/",
+    "tailwind/",
+    "tokens/",
+    "logo/",
+    "docs/",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": "./css/softbloom.css",
+    "./css/softbloom.css": "./css/softbloom.css",
+    "./tailwind/softbloom.preset.js": "./tailwind/softbloom.preset.js",
+    "./tokens/colors.json": "./tokens/colors.json",
+    "./tokens/typography.json": "./tokens/typography.json",
+    "./tokens/spacing.json": "./tokens/spacing.json",
+    "./tokens/radius.json": "./tokens/radius.json",
+    "./tokens/motion.json": "./tokens/motion.json"
+  },
+  "keywords": [
+    "design-system",
+    "design-tokens",
+    "tailwind-preset",
+    "sakura",
+    "css-variables"
+  ],
+  "author": "Jared Wilson",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/softbloom.git"
+  }
+}

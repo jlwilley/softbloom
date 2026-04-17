@@ -1,0 +1,15 @@
+{
+  "radius": {
+    "none": { "value": "0",     "description": "Single-sided borders, no rounding" },
+    "sm":   { "value": "4px",   "description": "Chips, tags, inline elements" },
+    "md":   { "value": "10px",  "description": "Default for buttons, inputs, small cards" },
+    "lg":   { "value": "16px",  "description": "Containers, modals, hero surfaces" },
+    "pill": { "value": "999px", "description": "Counters, badges, avatars only" }
+  },
+  "border": {
+    "width": {
+      "hairline": { "value": "0.5px", "description": "All standard borders" },
+      "feature":  { "value": "2px",   "description": "Reserved for featured cards only" }
+    }
+  }
+}

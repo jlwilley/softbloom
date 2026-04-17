@@ -1,0 +1,79 @@
+{
+  "color": {
+    "sakura": {
+      "50":  { "value": "#FFF7F9", "description": "Softest wash, section backgrounds" },
+      "100": { "value": "#FBE4EC", "description": "Light fill, tag backgrounds" },
+      "200": { "value": "#F5B8CD", "description": "Soft accent, chart fills" },
+      "400": { "value": "#E87FA0", "description": "Mid accent, decorative" },
+      "600": { "value": "#B84668", "description": "Primary brand, buttons, links" },
+      "900": { "value": "#5C1A2E", "description": "Dark text on pink, deep accents" }
+    },
+    "neutral": {
+      "paper":  { "value": "#FAF6F2", "description": "App background, warm off-white" },
+      "linen":  { "value": "#F2EBE4", "description": "Muted surface, secondary background" },
+      "stone":  { "value": "#E0D5CA", "description": "Default border color" },
+      "taupe":  { "value": "#A89589", "description": "Tertiary text, dividers" },
+      "bark":   { "value": "#6B5A52", "description": "Secondary text, muted labels" },
+      "ink":    { "value": "#2B1F1C", "description": "Primary body text, never pure black" }
+    },
+    "accent": {
+      "lilac":  { "value": "#EFE4F0", "description": "Secondary state, link backgrounds" },
+      "sage":   { "value": "#DDE8DC", "description": "Success states, grounding" },
+      "honey":  { "value": "#F7E6D2", "description": "Warmth, warnings, friendly messaging" },
+      "wine":   { "value": "#7A2640", "description": "Depth, focus, expensive moments" }
+    },
+    "dark": {
+      "obsidian": { "value": "#0F0709", "description": "Deepest background" },
+      "midnight": { "value": "#1A0F12", "description": "Dark mode app background" },
+      "plum":     { "value": "#261619", "description": "Dark mode card surfaces" },
+      "mulberry": { "value": "#3D2530", "description": "Dark mode borders" },
+      "wine":     { "value": "#5C3848", "description": "Dark mode wine" },
+      "dusk":     { "value": "#8A6578", "description": "Dark mode tertiary text" },
+      "petal":    { "value": "#FFE8F0", "description": "Dark mode body text" },
+      "bloom":    { "value": "#F8B8CE", "description": "Dark mode soft accent" },
+      "rose":     { "value": "#F289AD", "description": "Dark mode mid accent" },
+      "carmine":  { "value": "#D4577A", "description": "Dark mode primary brand" },
+      "cherry":   { "value": "#9F3754", "description": "Dark mode depth" }
+    },
+    "dark_accent": {
+      "night_lilac": { "value": "#3A2F42", "description": "Dark mode secondary state" },
+      "moss":        { "value": "#2D3A2F", "description": "Dark mode success" },
+      "amber":       { "value": "#4A3820", "description": "Dark mode warning" },
+      "ember":       { "value": "#4A1A2A", "description": "Dark mode focus, danger" }
+    },
+    "semantic": {
+      "light": {
+        "bg_app":          { "value": "{color.neutral.paper.value}" },
+        "bg_surface":      { "value": "#FFFFFF" },
+        "bg_muted":        { "value": "{color.neutral.linen.value}" },
+        "bg_inverse":      { "value": "{color.accent.wine.value}" },
+        "text_primary":    { "value": "{color.neutral.ink.value}" },
+        "text_secondary":  { "value": "{color.neutral.bark.value}" },
+        "text_tertiary":   { "value": "{color.neutral.taupe.value}" },
+        "border_default":  { "value": "{color.neutral.stone.value}" },
+        "brand":           { "value": "{color.sakura.600.value}" },
+        "brand_deep":      { "value": "{color.accent.wine.value}" },
+        "brand_wash":      { "value": "{color.sakura.50.value}" },
+        "success":         { "value": "#5A7A5C" },
+        "warning":         { "value": "#9C6B2F" },
+        "danger":          { "value": "#A33A52" }
+      },
+      "dark": {
+        "bg_app":          { "value": "{color.dark.midnight.value}" },
+        "bg_surface":      { "value": "{color.dark.plum.value}" },
+        "bg_muted":        { "value": "{color.dark.mulberry.value}" },
+        "bg_inverse":      { "value": "{color.dark.carmine.value}" },
+        "text_primary":    { "value": "{color.dark.petal.value}" },
+        "text_secondary":  { "value": "{color.dark.dusk.value}" },
+        "text_tertiary":   { "value": "#6E5260" },
+        "border_default":  { "value": "{color.dark.mulberry.value}" },
+        "brand":           { "value": "{color.dark.carmine.value}" },
+        "brand_deep":      { "value": "{color.dark.cherry.value}" },
+        "brand_wash":      { "value": "{color.dark_accent.ember.value}" },
+        "success":         { "value": "#8FB092" },
+        "warning":         { "value": "#D4A05E" },
+        "danger":          { "value": "#E87890" }
+      }
+    }
+  }
+}

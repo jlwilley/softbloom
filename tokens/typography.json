@@ -1,0 +1,49 @@
+{
+  "font": {
+    "family": {
+      "display": {
+        "value": "'Fraunces', 'GT Super', Georgia, serif",
+        "description": "Display serif for hero moments, 32px and up"
+      },
+      "sans": {
+        "value": "'Inter', 'General Sans', -apple-system, BlinkMacSystemFont, sans-serif",
+        "description": "UI and body text"
+      },
+      "mono": {
+        "value": "'JetBrains Mono', 'IBM Plex Mono', ui-monospace, monospace",
+        "description": "Code, tokens, data"
+      },
+      "accent_jp": {
+        "value": "'Shippori Mincho', 'Noto Serif JP', serif",
+        "description": "Japanese text and decorative pull quotes"
+      }
+    },
+    "size": {
+      "xs":   { "value": "12px" },
+      "sm":   { "value": "13px" },
+      "base": { "value": "14px" },
+      "md":   { "value": "15px" },
+      "lg":   { "value": "16px" },
+      "xl":   { "value": "18px" },
+      "2xl":  { "value": "22px" },
+      "3xl":  { "value": "28px" },
+      "4xl":  { "value": "32px" },
+      "5xl":  { "value": "48px" }
+    },
+    "weight": {
+      "regular": { "value": "400", "description": "Body text" },
+      "medium":  { "value": "500", "description": "Emphasis, headings, labels" }
+    },
+    "lineHeight": {
+      "tight":   { "value": "1.2", "description": "Headings" },
+      "snug":    { "value": "1.4", "description": "UI labels" },
+      "normal":  { "value": "1.6", "description": "Body" },
+      "relaxed": { "value": "1.7", "description": "Long-form reading" }
+    },
+    "letterSpacing": {
+      "tight":  { "value": "-0.02em", "description": "Large headings" },
+      "normal": { "value": "0" },
+      "wide":   { "value": "0.08em", "description": "Small uppercase labels" }
+    }
+  }
+}

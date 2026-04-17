@@ -1,0 +1,224 @@
+/**
+ * Softbloom Design System
+ * A sakura-inspired design language with light (Softbloom) and dark (Nightbloom) modes.
+ *
+ * Usage:
+ *   Light mode is the default. Dark mode activates automatically via prefers-color-scheme.
+ *   To force a mode, add `data-theme="light"` or `data-theme="dark"` to the root element.
+ */
+
+:root {
+  /* ========== Sakura ramp ========== */
+  --sakura-50:  #FFF7F9;
+  --sakura-100: #FBE4EC;
+  --sakura-200: #F5B8CD;
+  --sakura-400: #E87FA0;
+  --sakura-600: #B84668;
+  --sakura-900: #5C1A2E;
+
+  /* ========== Warm neutrals ========== */
+  --paper: #FAF6F2;
+  --linen: #F2EBE4;
+  --stone: #E0D5CA;
+  --taupe: #A89589;
+  --bark:  #6B5A52;
+  --ink:   #2B1F1C;
+
+  /* ========== Supporting accents ========== */
+  --lilac: #EFE4F0;
+  --sage:  #DDE8DC;
+  --honey: #F7E6D2;
+  --wine:  #7A2640;
+
+  /* ========== Nightbloom (dark mode raw values, always available) ========== */
+  --obsidian:   #0F0709;
+  --midnight:   #1A0F12;
+  --plum:       #261619;
+  --mulberry:   #3D2530;
+  --wine-night: #5C3848;
+  --dusk:       #8A6578;
+  --petal:      #FFE8F0;
+  --bloom:      #F8B8CE;
+  --rose:       #F289AD;
+  --carmine:    #D4577A;
+  --cherry:     #9F3754;
+
+  --night-lilac: #3A2F42;
+  --moss:        #2D3A2F;
+  --amber-night: #4A3820;
+  --ember:       #4A1A2A;
+
+  /* ========== Semantic: light mode defaults ========== */
+  --color-bg-app:         var(--paper);
+  --color-bg-surface:     #FFFFFF;
+  --color-bg-muted:       var(--linen);
+  --color-bg-inverse:     var(--wine);
+
+  --color-text-primary:   var(--ink);
+  --color-text-secondary: var(--bark);
+  --color-text-tertiary:  var(--taupe);
+  --color-text-inverse:   var(--sakura-50);
+
+  --color-border:         var(--stone);
+  --color-border-subtle:  rgba(224, 213, 202, 0.5);
+
+  --color-brand:          var(--sakura-600);
+  --color-brand-deep:     var(--wine);
+  --color-brand-wash:     var(--sakura-50);
+  --color-brand-fill:     var(--sakura-100);
+
+  --color-success:        #5A7A5C;
+  --color-success-bg:     var(--sage);
+  --color-warning:        #9C6B2F;
+  --color-warning-bg:     var(--honey);
+  --color-danger:         #A33A52;
+  --color-danger-bg:      var(--sakura-100);
+  --color-info:           #4A2C52;
+  --color-info-bg:        var(--lilac);
+
+  /* ========== Typography ========== */
+  --font-display: 'Fraunces', 'GT Super', Georgia, serif;
+  --font-sans:    'Inter', 'General Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono:    'JetBrains Mono', 'IBM Plex Mono', ui-monospace, monospace;
+  --font-jp:      'Shippori Mincho', 'Noto Serif JP', serif;
+
+  --text-xs:   12px;
+  --text-sm:   13px;
+  --text-base: 14px;
+  --text-md:   15px;
+  --text-lg:   16px;
+  --text-xl:   18px;
+  --text-2xl:  22px;
+  --text-3xl:  28px;
+  --text-4xl:  32px;
+  --text-5xl:  48px;
+
+  --weight-regular: 400;
+  --weight-medium:  500;
+
+  --leading-tight:   1.2;
+  --leading-snug:    1.4;
+  --leading-normal:  1.6;
+  --leading-relaxed: 1.7;
+
+  --tracking-tight:  -0.02em;
+  --tracking-normal: 0;
+  --tracking-wide:   0.08em;
+
+  /* ========== Spacing (4px base) ========== */
+  --space-0:  0;
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+
+  /* ========== Radius ========== */
+  --radius-none: 0;
+  --radius-sm:   4px;
+  --radius-md:   10px;
+  --radius-lg:   16px;
+  --radius-pill: 999px;
+
+  /* ========== Border width ========== */
+  --border-hairline: 0.5px;
+  --border-feature:  2px;
+
+  /* ========== Motion ========== */
+  --duration-instant: 0ms;
+  --duration-micro:   200ms;
+  --duration-state:   400ms;
+  --duration-page:    600ms;
+
+  --ease-soft-landing: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-soft-start:   cubic-bezier(0.65, 0, 0.35, 1);
+
+  --scale-hover-lift: 1.01;
+  --scale-hover-pop:  1.02;
+  --scale-pressed:    0.98;
+
+  /* ========== Elevation (warm, subtle) ========== */
+  --shadow-sm: 0 1px 3px rgba(107, 90, 82, 0.06);
+  --shadow-md: 0 2px 8px rgba(107, 90, 82, 0.08);
+  --shadow-lg: 0 8px 24px rgba(107, 90, 82, 0.1);
+}
+
+/* ========== Dark mode: auto via prefers-color-scheme ========== */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg-app:         var(--midnight);
+    --color-bg-surface:     var(--plum);
+    --color-bg-muted:       var(--mulberry);
+    --color-bg-inverse:     var(--carmine);
+
+    --color-text-primary:   var(--petal);
+    --color-text-secondary: var(--dusk);
+    --color-text-tertiary:  #6E5260;
+    --color-text-inverse:   var(--midnight);
+
+    --color-border:         var(--mulberry);
+    --color-border-subtle:  rgba(61, 37, 48, 0.6);
+
+    --color-brand:          var(--carmine);
+    --color-brand-deep:     var(--cherry);
+    --color-brand-wash:     var(--ember);
+    --color-brand-fill:     var(--ember);
+
+    --color-success:        #8FB092;
+    --color-success-bg:     var(--moss);
+    --color-warning:        #D4A05E;
+    --color-warning-bg:     var(--amber-night);
+    --color-danger:         #E87890;
+    --color-danger-bg:      var(--ember);
+    --color-info:           #D8C5DA;
+    --color-info-bg:        var(--night-lilac);
+
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.4);
+    --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.5);
+    --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.6);
+  }
+}
+
+/* ========== Manual overrides ========== */
+[data-theme="light"] {
+  color-scheme: light;
+  --color-bg-app:         var(--paper);
+  --color-bg-surface:     #FFFFFF;
+  --color-bg-muted:       var(--linen);
+  --color-text-primary:   var(--ink);
+  --color-text-secondary: var(--bark);
+  --color-border:         var(--stone);
+  --color-brand:          var(--sakura-600);
+  --color-brand-deep:     var(--wine);
+  --color-brand-wash:     var(--sakura-50);
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --color-bg-app:         var(--midnight);
+  --color-bg-surface:     var(--plum);
+  --color-bg-muted:       var(--mulberry);
+  --color-text-primary:   var(--petal);
+  --color-text-secondary: var(--dusk);
+  --color-border:         var(--mulberry);
+  --color-brand:          var(--carmine);
+  --color-brand-deep:     var(--cherry);
+  --color-brand-wash:     var(--ember);
+}
+
+/* ========== Base element styles (opt-in) ========== */
+.softbloom-base {
+  background: var(--color-bg-app);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+  font-size: var(--text-lg);
+  line-height: var(--leading-normal);
+  font-weight: var(--weight-regular);
+  -webkit-font-smoothing: antialiased;
+}
