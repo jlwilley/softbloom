@@ -12,6 +12,18 @@
 | `jw-current.svg` | Monochrome using `currentColor`. Inline the SVG and set CSS `color` to drive the fill. |
 | `jw-circle.svg` / `jw-circle.png` | Filled wine disc with cream mark. Avatars, app icons, small contexts needing a bounded shape. |
 
+## Wordmark (full "jlwilley" lockup)
+
+The full signature: sakura petals paired with the serif wordmark. Use on hero surfaces, brand headers, and anywhere the monogram alone would underplay the name.
+
+| File | Use |
+| --- | --- |
+| `jw-wordmark.svg` | Default. Sakura-900 wordmark, sakura-400 petals. Light backgrounds. |
+| `jw-wordmark-dark.svg` | Inverse. Petal-cream wordmark, dark-rose petals. Dark backgrounds. |
+| `jw-wordmark-current.svg` | Monochrome using `currentColor`. Inline the SVG and set CSS `color` to drive both petals and wordmark from one property. |
+
+Minimum width: 160px. Below that, reach for `jw-primary.svg` or the standalone petal.
+
 ## Petal mark (standalone)
 
 The five-petal sakura mark without the monogram. Use at small sizes or where the full lockup would feel heavy.

@@ -17,6 +17,7 @@ Pre-1.0 is iteration territory: breaking changes may land in minor versions.
 - Standalone petal mark in sakura-400, petal-cream, and sakura-900 (`petal.svg`, `petal-light.svg`, `petal-wine.svg`), plus raster exports
 - Favicon set: `favicon.svg`, `favicon.ico`, `favicon-96x96.png`, `apple-touch-icon.png`, PWA icons (192/512), and `site.webmanifest` starter
 - `jw-current.svg`: `currentColor`-driven monogram for CSS-colorable inline use
+- Full "jlwilley" wordmark lockup in three variants: `jw-wordmark.svg` (sakura-900 with sakura-400 petals), `jw-wordmark-dark.svg` (petal-cream with dark-rose petals), and `jw-wordmark-current.svg` (`currentColor` for CSS-driven inline use)
 
 ### Changed
 - Replaced placeholder `petal.svg` (geometric ellipse construction) with the finalized brand petal artwork
